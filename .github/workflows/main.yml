@@ -60,7 +60,7 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source_file: 'app/build/outputs/apk/release/app-release-unsigned.apkr'
+          source_file: 'app/build/outputs/apk/release/app-release-unsigned.apk'
           destination_repo: 'alejandrobautistar/testRepoB'
           destination_folder: 'libs/'
           user_email: 'alejandro.bautista@neuro-id.com'
